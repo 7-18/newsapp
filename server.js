@@ -24,9 +24,8 @@ app.get("/everything/:query", (req, res) => {
     });
 });
 
-app.get("/top-headlines", (req, res) => {
-  const { q, country } = req.query;
-  const url = `${API_URL_TOP_HEADLINES}?q=${q}&country=${country}&apiKey=${API_KEY}`;
+app.get("/top-headlines/:query", (req, res) => {
+  const url = `${API_URL_TOP_HEADLINES}?country=${req.params.query}&apiKey=${API_KEY}`;
   axios
     .get(url)
     .then((response) => {

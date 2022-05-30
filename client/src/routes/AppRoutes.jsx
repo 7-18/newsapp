@@ -3,7 +3,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import { Footer } from "../components/Footer/Footer";
 import { NavBar } from "../components/Navbar/NavBar";
 import { Home } from "../containers/Home";
-import { CountryNews } from "../pages/CountryNews/CountryNews";
+import { CountryNews } from "../pages/CountryNews";
 
 export function AppRoutes () {
     return (

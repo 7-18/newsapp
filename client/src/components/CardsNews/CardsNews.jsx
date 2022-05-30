@@ -1,6 +1,5 @@
 import { Card, Col, Container, Row } from "react-bootstrap"
 import { BiCaretRight } from "react-icons/bi"
-import { Pages } from "../Pagination/Pages"
 import moment from "moment"
 
 export const CardsNews = (news) => {
@@ -29,7 +28,6 @@ export const CardsNews = (news) => {
           </Col>
         )})}
       </Row>
-      {newsData.length > 0 && <Pages news={newsData} />}
     </Container>
   )
 }

@@ -4,7 +4,7 @@ export const COUNTRIES = [
     code: "ar",
   },
   {
-    name: "Brasil",
+    name: "Brazil",
     code: "br",
   },
   {
@@ -12,7 +12,7 @@ export const COUNTRIES = [
     code: "co",
   },
   {
-    name: "Estados Unidos",
+    name: "United States",
     code: "us",
   },
   {
@@ -20,7 +20,7 @@ export const COUNTRIES = [
     code: "it",
   },
   {
-    name: "México",
+    name: "Mexico",
     code: "mx",
   },
   {
